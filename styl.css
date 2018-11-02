@@ -1,0 +1,45 @@
+
+table 
+{
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td
+{
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even){background-color: #f2f2f2}
+
+th 
+{
+    background-color: #4CAF50;
+color: white;
+}
+input[type=text]
+{
+width: 200px;
+height: 40px;
+border: 2px solid black;
+border-radius: 4px;
+}
+button
+{
+    width: 200px;
+    height: 50px;
+background-color: #364aa3;
+color: black;
+font-size: "16px";
+border-radius:"30px";
+border:2px solid;
+box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0,0,0, 0.19);
+}
+#orders
+{
+    color: rgb(8, 0, 0);
+    font-style: italic;
+    font-family: Book Antiqua;
+    font-size: 30px;
+}
